@@ -1,0 +1,18 @@
+#Use '&' symbol to write messages in color
+messages:
+  prefix: "&7[&6&lCChests&7]"
+  target-block: "&cYou must be looking at a block to use this command !"
+  create-chest-gui-title: "&8&lCreate a custom chest"
+  chest-display-name-chat: "&ePlease send in chat the display name of your custom's chest GUI. You can use &lcolors codes &eas in the config."
+  chest-permission-chat: "&ePlease send in chat the permission to open your custom's chest."
+  chat-message-received: "&aYour chat message was received successfully !"
+  custom-chest-detected: "&aCustom chest detected, loading information's..."
+  block-isnt-custom-chest: "&cThis block isn't a custom chest !"
+  chest-removed: "&eThe custom chest was removed successfully, the items will be dropped !"
+  #The variable '[permission]' is the chest's permission. You can use it in your message !
+  no-perm-custom-chest: "&cYou don't have the permission to open this custom chest ! (Permission : &4[permission]&c)"
+  block-already-chest: "&cThis block is already a custom chest !"
+plugin:
+  #If this option is false, there will be particles around a custom chest
+  #Restart server to apply the changes
+  invisible-chests: false

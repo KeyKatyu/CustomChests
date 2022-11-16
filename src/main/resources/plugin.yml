@@ -1,0 +1,25 @@
+name: CustomChests
+version: '${project.version}'
+main: fr.keykatyu.customchests.Main
+api-version: 1.19
+authors: [ KeyKatyu ]
+description: Have you ever dreamed of making a chest out of any block ?
+commands:
+  cccreate:
+    usage: /cccreate
+    description: It opens a GUI to create a custom chest (client-side only)
+    permission: customchests.create
+    aliases:
+      - ccc
+  ccremove:
+    usage: /ccremove
+    description: It removes a custom chest (client-side only)
+    permission: customchests.remove
+    aliases:
+      - ccr
+  ccanalyze:
+    usage: /ccanalyze
+    description: It gives you a special stick to analyze any block/custom chest (client-side only)
+    permission: customchests.analyze
+    aliases:
+      - cca
